@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="426.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="easybutton" layoutX="230.0" layoutY="57.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="139.0" text="%EASY" />
+      <Button fx:id="hardbutton" layoutX="230.0" layoutY="189.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="139.0" text="%HARD" />
+      <Button fx:id="mediumbutton" layoutX="230.0" layoutY="123.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="139.0" text="%MEDIUM" />
+      <Button fx:id="loadid" layoutX="230.0" layoutY="255.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="139.0" text="%LOAD" />
+      <Button fx:id="langen" layoutX="30.0" layoutY="329.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="139.0" text="%langen" />
+      <Button fx:id="langpl" layoutX="433.0" layoutY="329.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="139.0" text="%langpl" />
+      <Label fx:id="authorslabel" layoutX="437.0" layoutY="21.0" prefHeight="18.0" prefWidth="132.0" text="Title" />
+      <Label fx:id="author1label" layoutX="437.0" layoutY="40.0" text="Label" />
+      <Label fx:id="author2label" layoutX="437.0" layoutY="57.0" text="Label" />
+      <Button fx:id="deletebutton" layoutX="230.0" layoutY="317.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="139.0" text="%DELETE" />
+   </children>
+</AnchorPane>
